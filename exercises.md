@@ -47,7 +47,7 @@ docker images | grep chat
 
 Giải thích: phần dung lượng chênh lệch đó là những gì?
 
-> *Câu trả lời của bạn*
+> *1 stage: Multi-stage: 270MB*
 
 ---
 
