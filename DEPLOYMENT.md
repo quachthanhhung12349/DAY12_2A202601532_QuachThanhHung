@@ -10,17 +10,17 @@
 
 | Mục | Nội dung |
 |-----|----------|
-| Họ và tên | (điền họ tên) |
-| Mã học viên | (điền mã học viên) |
-| Repo | (điền link repo K4-DAY12-...) |
+| Họ và tên | Quách Thanh Hưng |
+| Mã học viên | 2A202601532 |
+| Repo | github.com/quachthanhhung12349/DAY12_2A202601532_QuachThanhHung |
 
 ## Service
 
 | Mục | Nội dung |
 |-----|----------|
-| Public URL | https://TODO-thay-bang-url-that.up.railway.app |
-| Platform | Railway / Render / Cloud Run — (điền platform bạn dùng) |
-| Ngày deploy | (điền ngày) |
+| Public URL | https://day12-chat-production-361a.up.railway.app |
+| Platform | Railway |
+| Ngày deploy | 10/8/2026 |
 
 ## Biến Môi Trường Đã Set Trên Cloud
 
@@ -74,7 +74,17 @@ done; echo
 Dán output của các lệnh trên vào đây:
 
 ```
-(điền output)
+Lệnh 1:
+HTTP/2 200 
+content-type: application/json
+date: Mon, 10 Aug 2026 16:19:06 GMT
+server: railway-hikari
+x-railway-request-id: kUEOyrR_RouBjD9ipHNmDw
+content-length: 64
+x-hikari-trace: sin1.hs0s
+x-railway-edge: sin1
+
+{"status":"ok","service":"day12-chat-service","version":"1.0.0"}(base)
 ```
 
 ## Ảnh Chụp Màn Hình

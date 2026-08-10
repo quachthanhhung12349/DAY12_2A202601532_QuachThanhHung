@@ -62,6 +62,8 @@ def get_cost_guard() -> CostGuard:
 @asynccontextmanager
 async def lifespan(_app: FastAPI):
     """CHO SẴN — chạy lúc app khởi động và lúc tắt."""
+    # Validate required environment variables before the service accepts traffic.
+    get_settings()
     shutdown_guard.arm()
     emit("service_started", service=SERVICE_NAME, version=SERVICE_VERSION)
     yield
