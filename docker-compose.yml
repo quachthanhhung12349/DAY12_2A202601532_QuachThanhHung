@@ -38,7 +38,7 @@ services:
   chat:
     build: .
     ports:
-      - "8008:8000"
+      - "8000:8000"
     environment:
       - API_TOKEN=${API_TOKEN}
       - REDIS_URL=redis://redis:6379/0
